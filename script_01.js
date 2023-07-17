@@ -83,6 +83,7 @@
     const GAP = " ";  // screaming snake case
     let outputStr = "Hallo" + GAP + firstName + GAP + familyName + "!";
     return outputStr; // daten werden an den Ort des calls geschickt
+    console.log("Hi");  // return bricht die Fkt ab!
 }
 
 
