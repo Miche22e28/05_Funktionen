@@ -27,9 +27,9 @@
     // console.log("Hallo Yasmeen!");
 // }
 
-// ausgabeName();
+// ausgabeNamen();
 
-// function augabeName() {
+// function augabeNamen() {
 
 //     let firstName = "Nico";
 //     console.log("Hallo " + firstName +"!");
@@ -39,5 +39,16 @@
 
 // innerhalb der Funktion sichtbar | außerhalb der Funktion ungültig
 
+/***** Funktionen 02b *****/
+// 2b. Parametrisierung + Datenübergabe von AUSSEN
 
+ausgabeNamen2("Sohrab"); // call + Argument(e)
+ausgabeNamen2("Nico");
+ausgabeNamen2("Yasmenn");
+// Argfumente sind Daten für Parameter
+
+// Funktion mit Parameter(n)
+function ausgabeNamen2 (firstName) {
+    console.log("Hallo " + firstName +"!");
+}
 
